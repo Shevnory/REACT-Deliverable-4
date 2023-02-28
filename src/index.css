@@ -1,0 +1,31 @@
+:root{
+  --font-principal: 'Roboto', sans-serif;
+  --color-primary: #00D2E2;
+  --color-secondary: #333644;
+  --color-white: #d8d8d8;
+  --color-white-secondary:#eeeeee;
+  --color-opacity: rgba(0, 0, 0, 0.747);
+  --color-red: #ff4649;
+}
+
+body{
+  margin: 0;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

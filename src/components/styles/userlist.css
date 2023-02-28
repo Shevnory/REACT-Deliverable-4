@@ -1,0 +1,115 @@
+
+.users-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+ .user-card{
+    margin: 10px;
+    padding: 20px;
+    max-width: 350px;
+    background-color: var(--color-white-secondary);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-card h3{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 1.3 rem;
+}
+.user-card hr{
+    background-color: var(--color-secondary);
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin: 10px;
+}
+
+.user-card li{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.user-card span{
+    width: 100%;
+    font-weight: 300;
+    color: rgb(109, 109, 109);
+
+}
+
+.user-card footer{
+    width: 100%;
+    height: 10vh;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn-delete{
+    width: 43px;
+    height: 43px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--color-white-secondary);
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-red);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-delete:hover{
+    color: var(--color-red);
+    background-color: var(--color-white-secondary);
+    border: 2px solid var(--color-red);
+}
+
+.btn-delete:active{
+    color: var(--color-red);
+    background-color: var(--color-white-secondary);
+    border: 2px solid var(--color-red);
+}
+
+.btn-edit{
+    margin: 0 5px;
+    width: 43px;
+    height: 43px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--color-white-secondary);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white-secondary);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-edit:hover{
+    color: var(--color-secondary);
+    background-color: var(--color-white-secondary);
+    border: 2px solid var(--color-secondary);
+}
+
+.btn-edit:active{
+    color: var(--color-secondary);
+    background-color: var(--color-white-secondary);
+    border: 2px solid var(--color-secondary);
+}
